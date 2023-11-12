@@ -3,13 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Poppins', sans-serif; ;
 }
 
 :root {
     --primary-text-color: white;
-    --secondary-text-color: rgb(222, 222, 222);
+    --secondary-text-color: rgb(175, 175, 175);
     --primary-bg-color: rgb(0, 0, 0);
-    --second-bg-color: rgb(70, 70, 70);
+    --second-bg-color: rgb(21, 21, 21);
 }
 
 body{
@@ -22,8 +23,9 @@ h1{
 }
 
 p{
-    font-size: medium;
+    font-size: 0.87rem;
     color: var(--secondary-text-color);
+    text-align: center;
 }
 
 a{
@@ -31,13 +33,16 @@ a{
     display: inline-block;
     text-decoration: none;
 }
-
+.navbox{
+    background-color: var(--primary-bg-color);
+}
 .container{
     margin-inline: auto;
-    max-width: 1190px;
+    max-width: 1180px;
     /* background-color: blue; */
     padding-inline: 20px;
-    background-color: var(--primary-bg-color);
+    /* background-color: var(--primary-bg-color); */
+    color: aliceblue;
 }
 
 .Ecell-logo{
@@ -54,17 +59,18 @@ ul{
 }
 
 .Ecell-logo img{
-    width: 130px;
+    width: 128px;
     margin-top: 10px;
 }
 
 .nav-bar{
     justify-content: space-evenly;
     gap: 200px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     background-color: var(--primary-bg-color);
     color: var(--secondary-text-color);
-    
+    position: fixed;
+    z-index: 1;
 }
 
 .nav-bar img{
@@ -73,7 +79,7 @@ ul{
 .nav-links ul{
     /* width: 400px; */
     justify-content: space-evenly;
-    gap: 40px; 
+    gap: 50px; 
 }
 
 .nav-links{
@@ -82,5 +88,89 @@ ul{
 
 .about-us{
     
-    width: max-content;
+    width: max-content60;
+    flex: 3;
+}
+
+.hover-links :hover{
+    cursor: grab;
+}
+
+.vertical{
+    writing-mode: vertical-lr;
+    color: var(--secondary-text-color);
+    transform: rotate(-180deg);
+    margin-left: 20px;
+    display: inline;
+}
+
+.header{
+    height: 540px;
+    /* background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,0,0,1) 0%, rgba(22,5,0,1) 25%, rgba(0,0,0,1) 76%, rgba(0,7,8,1) 100%);    /* background: rgb(2,0,36); */
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,0,0,1) 0%, rgba(22,5,0,1) 37%, rgba(0,0,0,1) 76%, rgba(0,7,8,1) 100%); */
+/* background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,0,0,1) 0%, rgba(22,5,0,1) 31%, rgba(0,0,0,1) 76%, rgba(0,7,8,1) 100%); */
+background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,0,0,1) 0%, rgba(22,5,0,1) 32%, rgba(0,0,0,1) 76%, rgba(0,7,8,1) 100%);
+/* background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,0,0,1) 0%, rgba(22,5,0,1) 25%, rgba(0,0,0,1) 76%, rgba(0,7,8,1) 100%); */
+opacity: 0.9;
+    
+}
+
+.text{
+    font-size: 5rem;
+    font-weight: bold;
+    width:1050px;
+    margin-right: 0px;
+    text-align: right;
+}
+
+.break{
+    background-color: var(--second-bg-color);
+}
+
+.aboutus{
+    height: auto;
+    background-color: var(--second-bg-color);
+
+}
+
+.grppic img{
+    width: 100px;
+    height: 672.31px;
+    width: 1190px;
+    align-items: center;
+    margin-inline: auto;
+    /* margin-inline: auto;*/
+}
+
+.readmore {
+    text-align: center;
+    /* color: var(--primary-text-color); */
+}
+.readmore a{
+    color: var(--primary-text-color);
+}
+
+.gallery{
+    background-color: var(--second-bg-color);
+    height: auto;
+    overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  gap: 0px;
+
+}
+
+.gallery img{
+    width: 400px;
+    height: 226px;
+    padding: 5px;
+    
+}
+
+.our-gallery{
+    background-color: var(--second-bg-color);
 }

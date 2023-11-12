@@ -8,12 +8,13 @@
 :root {
     --primary-text-color: white;
     --secondary-text-color: rgb(222, 222, 222);
-    --primary-bg-color: rgb(26, 25, 25);
+    --primary-bg-color: rgb(0, 0, 0);
     --second-bg-color: rgb(70, 70, 70);
 }
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-bg-color);
 }
 
 h1{
@@ -29,4 +30,57 @@ a{
     color: var(--secondary-text-color);
     display: inline-block;
     text-decoration: none;
+}
+
+.container{
+    margin-inline: auto;
+    max-width: 1190px;
+    /* background-color: blue; */
+    padding-inline: 20px;
+    background-color: var(--primary-bg-color);
+}
+
+.Ecell-logo{
+    width: px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.Ecell-logo img{
+    width: 130px;
+    margin-top: 10px;
+}
+
+.nav-bar{
+    justify-content: space-evenly;
+    gap: 200px;
+    font-size: 0.9rem;
+    background-color: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+    
+}
+
+.nav-bar img{
+    
+}
+.nav-links ul{
+    /* width: 400px; */
+    justify-content: space-evenly;
+    gap: 40px; 
+}
+
+.nav-links{
+    flex-basis: 1120px;
+}
+
+.about-us{
+    
+    width: max-content;
 }

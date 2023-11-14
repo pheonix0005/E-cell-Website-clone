@@ -61,8 +61,11 @@ ul{
 .Ecell-logo img{
     width: 128px;
     margin-top: 10px;
+    margin-left: 140px ;
 }
-
+.sidebar img{
+    margin-right: 140px;
+}
 .nav-bar{
     justify-content: space-evenly;
     gap: 200px;
@@ -71,6 +74,7 @@ ul{
     color: var(--secondary-text-color);
     position: fixed;
     z-index: 1;
+    width: 100%;
 }
 
 .nav-bar img{
@@ -90,6 +94,7 @@ ul{
     
     width: max-content60;
     flex: 3;
+    white-space: nowrap;
 }
 
 .hover-links :hover{
@@ -173,4 +178,37 @@ opacity: 0.9;
 
 .our-gallery{
     background-color: var(--second-bg-color);
+}
+
+#tothetop {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+.biggerbox{
+    height: 700px;
+    background-color: var(--second-bg-color);
+    position: relative;
+    width: 100%;
+}
+
+.quotebox{
+    background-color: var(--primary-bg-color);
+    height: 500px;
+    width: 100%;
+    position: absolute ;
+    top: 200px;
+}
+.biggerbox img{
+    width: 350px;
+    z-index: 2;
+    position: absolute;
+    top: 72px;
+    right: -80px;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
 }

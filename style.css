@@ -52,6 +52,7 @@ a{
 .flex{
     display: flex;
     align-items: center;
+    
 }
 
 ul{
@@ -194,7 +195,10 @@ opacity: 0.9;
 }
 
 .quotebox{
-    background-color: var(--primary-bg-color);
+    /* background-color: var(--primary-bg-color); */
+    /* background-image: ; */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(21,21,21,1) 93%);
     height: 500px;
     width: 100%;
     position: absolute ;
@@ -202,13 +206,25 @@ opacity: 0.9;
 }
 .biggerbox img{
     width: 350px;
-    z-index: 2;
+    z-index: ;
     position: absolute;
     top: 72px;
-    right: -80px;
+    right: 0px;
 }
+
+/* .flex2{
+    display: flex;
+    flex-direction: column;
+} */
 
 .flex2{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+}
+
+.quoteleft img{
+    z-index: 2;
+    align-items: flex-start;
+    ;
 }

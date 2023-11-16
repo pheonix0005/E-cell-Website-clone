@@ -86,7 +86,7 @@ ul{
 .nav-links ul{
     /* width: 400px; */
     justify-content: space-evenly;
-    gap: 50px; 
+    gap: 30px; 
 }
 
 .nav-links{

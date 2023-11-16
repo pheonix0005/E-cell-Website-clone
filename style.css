@@ -78,6 +78,7 @@ ul{
     position: fixed;
     z-index: 1;
     width: 100%;
+    margin-top: 0px;
 }
 
 .nav-bar img{
@@ -181,6 +182,13 @@ opacity: 0.9;
 
 .our-gallery{
     background-color: var(--second-bg-color);
+    position: relative;
+}
+
+.reddots{
+    position: absolute;
+    width: 20%;
+    right: 10px;
 }
 
 #tothetop {
@@ -328,4 +336,61 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(21,
     /* position: fixed; */
     /* bottom: 0px;
     right: 0px;
-} */ */
+} */
+
+.quote{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(21,21,21,1) 93%);
+    /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(15,15,15,1) 85%, rgba(21,21,21,1) 100%); */
+    height: 500px;
+}
+
+/* .quotetext{
+    background-color: none;
+
+} */
+
+.collage img{
+    width: 70%;
+    
+}
+
+.icon img{
+    width: 40px;
+    
+    
+}
+
+.all{
+    flex-direction: column;
+}
+
+.flex4{
+    display: flex;
+}
+
+.quotetext{
+    flex-direction: column;
+    
+}
+
+.quotetext b{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.bg{
+    font-size: 25px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.desg{
+    font-size: 15px;
+    text-align: left;
+}
+
+.icon{
+    
+}

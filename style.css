@@ -228,3 +228,22 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(21,
     align-items: flex-start;
     ;
 }
+
+.past-sponsors h1{
+    color: red;
+    font-family: 'Poppins',sans-serif;
+    -webkit-text-stroke: 1px red;
+	-webkit-text-fill-color: var(--second-bg-color);
+    font-size: 81px;
+}
+
+.past-sponsors{
+    background-color: var(--second-bg-color);
+    gap: 100px;
+    justify-content: center;
+}
+
+.past-sponsors img{
+    width: 450px;
+    
+}

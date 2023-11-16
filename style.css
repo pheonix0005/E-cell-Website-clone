@@ -17,7 +17,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: var(--primary-bg-color);
+    background-color: var(--second-bg-color);
 }
 
 h1{
@@ -222,7 +222,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(21,
 .flex2{
     display: flex;
     /* flex-direction: row-reverse; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 30px;
 }
 
 .quoteleft img{
@@ -276,3 +277,55 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(21,
     font-size: 30px;
     text-align: center;
 }
+
+.flex2{
+    flex-direction: column;
+    gap: 0px;
+}
+.logoname img{
+    width: 100px;
+}
+
+.p2{
+    color: var(--secondary-text-color);
+    font-size: medium;
+}
+
+.logoname{
+    flex-direction: column;
+    gap: ;
+}
+
+.services{
+    flex-direction: column;
+    gap: 20px;
+}
+.contact_us{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer{
+    gap: 200px;
+    height: 250px;
+    background-color: var(--second-bg-color);
+    justify-content: center;
+}
+
+.socials{
+    flex-direction:column;
+}
+
+.icons img{
+    width: 40px;
+}
+
+.icons{
+    gap: 10px;
+}
+
+/* #fixedbutton{
+    /* position: fixed; */
+    /* bottom: 0px;
+    right: 0px;
+} */ */
